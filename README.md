@@ -1,3 +1,6 @@
+#about 
+Nutrition Analysis is an application designed to analyze any recipe and get a detailed nutrition data about it.
+
 # Nutrition
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
