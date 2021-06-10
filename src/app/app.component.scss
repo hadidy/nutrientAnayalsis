@@ -1,0 +1,19 @@
+.loader {
+    &__container {
+        z-index: 5;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #7d7d7d78;
+        width: 100%;
+    }
+
+    &__spinnerwraper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+}

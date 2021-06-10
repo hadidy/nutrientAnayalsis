@@ -1,0 +1,8 @@
+<div class="nutrient__container">
+    <div>
+        <b> {{nutrientName}}</b> {{ weight | nutrientWeight}} {{" " +weightUnit}}
+    </div>
+    <p *ngIf="(weightPercentage | roundPercent) > 0">
+        {{ weightPercentage | roundPercent}} {{" " + weightUnitPercentage}}
+    </p>
+</div>

@@ -1,0 +1,11 @@
+<div class="reciepe__container">
+  <mat-form-field class="reciepe__textarea" appearance="fill">
+    <mat-label>food to anaysis</mat-label>
+    <textarea MatFormFieldControl placeholder="1 cup rice" matInput [formControl]="food"
+      required cols="20" rows="10"></textarea>
+    <mat-error *ngIf="food.invalid">{{ getErrorMessage() }}</mat-error>
+  </mat-form-field>
+  <button mat-raised-button color="primary" [disabled]="food.invalid" (click)="analyze()">
+    Analyze
+  </button>
+</div>
